@@ -24,3 +24,4 @@ const rate = 15;
 
 console.log(`Your earnings in June: ${hours * rate} euro`);
 ```
+### Exercises
