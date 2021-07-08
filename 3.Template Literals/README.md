@@ -36,7 +36,7 @@ Dear ${firstName},
 
 Your have subscription for ${product}, is expering on ${experingDate}.
 
-The cost for you subscription is $${}.
+The cost for you subscription is $${productPrice}.
 
 Thank you for being our loyal customer.
 
