@@ -26,7 +26,7 @@ console.log(`Your earnings in June: ${hours * rate} euro`);
 ```
 ### Exercises
 
-1. Create an email template using template literals, that allows you pass name some variable.
+1. Create an email template using template literals, that allows you pass some variables.
 
 ```javascript
 
