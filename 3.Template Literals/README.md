@@ -34,7 +34,7 @@ const emailTemplate = `
 
 Dear ${firstName},
 
-Your have subscription for ${product}, is expering on ${experingDate}.
+Your have subscription for ${product}, is expering on ${expiringDate}.
 
 The cost for you subscription is $${productPrice}.
 
