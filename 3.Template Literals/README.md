@@ -1,6 +1,6 @@
 # Template Literals
 
-ES6 template litterals allow you to work esier with strings.
+ES6 template litterals allow you to work easier with strings.
 
 ```javascript
 const fullName = `Ion Popescu`;
