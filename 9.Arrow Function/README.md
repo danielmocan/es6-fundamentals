@@ -53,7 +53,7 @@ const allEmployeesFullNames = employees.map(getFullName);
 
 console.log('All Employees', allEmployeesFullNames);
 ```
-3.
+3. Rewrite the following functions using arrow
 
 ```javascript
 const employees = [
