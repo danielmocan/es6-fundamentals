@@ -25,3 +25,21 @@ const rate = 15;
 console.log(`Your earnings in June: ${hours * rate} euro`);
 ```
 ### Exercises
+
+1. Create an email template using template literals, that allows you pass name some variable.
+
+```javascript
+
+const emailTemplate = `
+
+Dear ${firstName},
+
+Your have subscription for ${product}, is expering on ${experingDate}.
+
+The cost for you subscription is $${}.
+
+Thank you for being our loyal customer.
+
+`;
+
+```
