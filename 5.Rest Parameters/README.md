@@ -19,4 +19,18 @@ const anotherBadExample = (a, ...rest, b) => console.log(rest);
 1. Create a function that accepts an unlimited amount of parameters and sums them.
 2. Create a recursive function that sums the elements passed into the function
 
+How to do it
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = (a, ...rest) => {
+    if(rest.length === 0) {
+        return a;
+    }
+    return sum(...rest) + a;
+}
+
+console.log(sum(...numbers));
+```
+
 
