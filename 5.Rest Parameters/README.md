@@ -17,4 +17,6 @@ const anotherBadExample = (a, ...rest, b) => console.log(rest);
 
 ### Exercises
 1. Create a function that accepts an unlimited amount of parameters and sums them.
+2. Create a recursive function that sums the elements passed into the function
+
 
