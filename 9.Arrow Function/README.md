@@ -1,6 +1,10 @@
 # Arrow Function
-If the the arrow function recives only one argument you don't have to use the parentheses.
-Also if the arrow function is not complex you can write it on one line.
+
+Arrow functions are shorter and easier to read.
+Because of:
+
+* If the the arrow function recives only one argument you don't have to use the parentheses.
+* Also if the arrow function is not complex you can write it on one line.
 
 ```javascript
 const sayHi = (name) => {
@@ -25,35 +29,7 @@ function sumOfThree(a){
   }
 }
 ```
-2. Rewrite the following example using arrow functions
-
-```javascript
-function getFullName(person) {
-   return person.firstName +" "+ person.lastName;
-}
-const employees = [
-    {
-        firstName: 'Andrei',
-        lastName: 'Enea',
-        department: 'HR'
-    },
-    {
-        firstName: 'Irina',
-        lastName: 'Sirbu',
-        department: 'Operations'
-    },
-    {
-        firstName: 'Vitalie',
-        lastName: 'Severin',
-        department: 'IT Support'
-    }
-];
-
-const allEmployeesFullNames = employees.map(getFullName);
-
-console.log('All Employees', allEmployeesFullNames);
-```
-3. Rewrite the following functions using arrow
+2. Rewrite the following functions using arrow
 
 ```javascript
 const employees = [
@@ -73,4 +49,22 @@ const employees = [
         department: 'IT Support'
     }
 ];
+
+const hr = employees.filter( function(employee) {
+  if( employee.department ==='HR') {
+    return true;
+  }
+  return false;
+}).map( function(employee) {
+  return {
+    ...employee,
+    salary: 7000
+  }
+});
+
+console.log(hr);
+const newHr = employees.filter((employee) => employee.department === 'HR')
+                       .map((employee) => ({ ...employee, salary: 7000}));
+console.log(newHr);
+
 ```
