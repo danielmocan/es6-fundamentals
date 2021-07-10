@@ -53,6 +53,15 @@ Variables defined with **let**:
 ```javascript
 const noValueChange = "Value";
 noValueChange = "Changed Value"; //Uncaught TypeError: Assignment to constant variable.
+
+const person = {
+    name: 'Razvan',
+    age: 25
+};
+
+// Works fine, but why?
+person.position = 'AQA';
+console.log(person);
 ```
     
 ### Exercises
