@@ -1,6 +1,7 @@
 # Spread Operator
-Spread operator consists of ... dots. The spread operator allows you to spread out elements of an iterable object, this are very usefull when you work with arrays.
 
+Spread operator consists of ... dots. 
+The spread operator allows you to spread out elements of an iterable object like arrays.
 ```javascript
 const listOfEmployees = ['Loredan', 'Valentin', 'Norbert'];
 const newHires = ['Dorin', 'Dan', 'Claudiu'];
@@ -27,7 +28,7 @@ console.log(newPerson);
 ```javascript
 const hello = 'hello';
 ```
-2. You have the following objects, using the spread operator in an empty {} create an object with the properties:
+2. Using the following 3 objects, use the spread operator in an empty {} to create an object with the properties and values:
 * color: blue
 * height: 10
 * brand: Fortech
