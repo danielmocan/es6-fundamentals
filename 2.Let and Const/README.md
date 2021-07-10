@@ -40,7 +40,7 @@ Variables defined with **let**:
  
  // not allowed because its used before its declared
  console.log(employeeName);
- let employeeName = "Dani Mocanu";
+ const employeeName = "Dani Mocanu";
  
  {
      const employee = 'Calin';
