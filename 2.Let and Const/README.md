@@ -28,7 +28,7 @@ Variables defined with **let**:
  
  ## Const
  
- Declaring a variable with conts has the same restricitions as let, but with one important addition. The value cannot be changed after it was assigned(*).
+ Declaring a variable with const has the same restricitions as let, but with one important addition. The value cannot be changed after it was assigned(*).
 
     
  ```javascript
