@@ -15,7 +15,8 @@ Variables defined with **let**:
  let name = "Ion";
  
  // not allowed because its used before its declared
- console.log(company);
+ console.log(employeeName);
+ let employeeName = "Dani Mocanu";
  
  {
      let employee = 'Calin';
@@ -38,7 +39,8 @@ Variables defined with **let**:
  const name = "Ion";
  
  // not allowed because its used before its declared
- console.log(company);
+ console.log(employeeName);
+ let employeeName = "Dani Mocanu";
  
  {
      const employee = 'Calin';
