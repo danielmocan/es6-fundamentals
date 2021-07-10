@@ -28,8 +28,10 @@ console.log(`Your earnings in June: ${hours * rate} euro`);
 ```
 ### Exercises
 
-1. Create an email template using template literals, that allows you pass some variables.
-
+1. Create a function the return the content for and email. 
+You have the following template. 
+This function receives the following parameters: firstName, product, expiringDate, productPrice.
+Sometimes the firstName is not available, use some default value for it.
 ```javascript
 
 const emailTemplate = `
