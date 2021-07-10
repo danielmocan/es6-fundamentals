@@ -1,1 +1,1 @@
-# es6-training
+# es6-fundamentals
