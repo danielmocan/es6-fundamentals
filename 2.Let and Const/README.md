@@ -29,9 +29,7 @@ Variables defined with **let**:
  
  ## Const
  
- Declaring a variable with const has the same restricitions as let, but with one important addition. The value cannot be changed after it was assigned(*).
-
-    
+ Declaring a variable with const has the same restricitions as let(*)
  ```javascript
  const name = "Vasile";
  
@@ -48,9 +46,14 @@ Variables defined with **let**:
  
  // this will throw an error (Uncaught ReferenceError: employee is not defined )
  console.log(employee);
- 
- const noValueChange = "Value";
- noValueChange = "Changed Value"; //Uncaught TypeError: Assignment to constant variable.
  ```
+ 
+ By now you are thinking why we have two of them,but remember the \*. There is one important difference the value cannot be changed after it was assigned.
+ 
+```javascript
+const noValueChange = "Value";
+noValueChange = "Changed Value"; //Uncaught TypeError: Assignment to constant variable.
+```
+    
 ### Exercises
  
