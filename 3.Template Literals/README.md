@@ -12,9 +12,11 @@ The real values is here:
 const firstName = "Ion";
 const lastName = "Popescu";
 
-const fullName = `${firstName} ${lastName}`;
+const fullName = `First Name: ${firstName} Last Name:${lastName}`;
 console.log(fullName);
 
+//No more
+const fullName = "First Name: "+ firstName +"Last Name:"+ lastName;
 ```
 You can do more stuff inside template literals.
 
