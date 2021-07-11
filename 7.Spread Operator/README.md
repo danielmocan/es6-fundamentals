@@ -13,7 +13,7 @@ I know that the training is about es6, but I want to mention that in es9(es2018)
 
 ```javascript
 const person = {
-  name: 'Valentin',
+  name: 'Vitalie',
   age: 25,
   department: 'HR';
 }
