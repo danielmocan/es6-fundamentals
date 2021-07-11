@@ -25,7 +25,7 @@ const newPerson = {
 ```javascript
 const employee = {
   firstName: 'Loredana',
-  lastName: 'Lasca'
+  lastName: 'Lasca',
   age: 25,
   getFullName: function() {
     return this.firstName +' '+ this.lastName;
@@ -34,7 +34,7 @@ const employee = {
 
 const newEmployee = {
   firstName: 'Oana',
-  lastName: 'Ujica'
+  lastName: 'Ujica',
   age: 25,
   getFullName() {
     return `${this.firstName} ${this.lastName}`;
@@ -58,6 +58,5 @@ const person = {
   age: 25,
   ['name']: 'Razvan',
 }
-
 ```
 
