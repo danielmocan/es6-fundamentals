@@ -38,7 +38,39 @@ console.log(name); //Rodica
 
 const { name: renamedName } = person;
 console.log(renamedName); // Rodica
-
 ```
 
 ### Exercises
+
+1. You have the following list of employees, create a function that prints the details for an employee.
+Use destructuring where is possible.
+Then apply this function to every employee of the list.
+
+```javascript
+const employees = [
+  {
+    name: 'Daniel',
+    age: 25,
+    details: {
+      supervisor: 'Calin',
+      department: 'HR',
+    }
+  },
+  {
+    name: 'Oana',
+    age: 25,
+    details: {
+      supervisor: 'Marius',
+      department: 'Operations',
+    }
+  },
+  {
+    name: 'Claudiu',
+    age: 25,
+     details: {
+      supervisor: 'Calin',
+      department: 'HR',
+    }
+  }
+];
+```
