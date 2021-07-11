@@ -20,7 +20,7 @@ console.log(newEmployee);
 
 Let's break this down.
 
-#### Contructor
+### Contructor
 
 `constructor` is a special method that is used for creating and initializing the object with **classes**.
 
@@ -51,5 +51,28 @@ class Names {
 console.log('Names.name ', Names.name);
 console.log('Names.doubleName', Names.doubleName('Vasile'));
 
+```
+### Extends
+With extends you can create a new class that is a child of another class.
+
+```javascript
+class Person {
+    constructor(firstName, lastName, age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
+}
+
+class Employee extends Person {
+    constructor(firstName, lastName, age, department, salary) {
+        super(firstName, lastName, age)
+        this.department = department;
+        this.salary = salary;
+    }
+}
+
+const employee = new Employee('Daniel', 'Mocan', '25', 'Operations', 1000);
+console.log(employee);
 ```
 
