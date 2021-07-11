@@ -28,9 +28,9 @@ console.log(`Your earnings in June: ${hours * rate} euro`);
 ```
 ### Exercises
 
-1. Create a function the return the content for and email. 
+1. Create a function the returns the content for and email. 
 You have the following template. 
-This function receives the following parameters: firstName, product, expiringDate, productPrice.
+This function `createSubscriptionEmail` receives the following parameters: firstName, product, expiringDate, productPrice.
 Sometimes the firstName is not available, use some default value for it.
 ```javascript
 
@@ -45,5 +45,4 @@ The cost for you subscription is $${productPrice}.
 Thank you for being our loyal customer.
 
 `;
-
 ```
