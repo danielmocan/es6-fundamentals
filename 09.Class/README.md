@@ -75,4 +75,6 @@ class Employee extends Person {
 const employee = new Employee('Daniel', 'Mocan', '25', 'Operations', 1000);
 console.log(employee);
 ```
-
+### Exercises
+1. Create a `MathOperations` class that implements the following static methods: `square`, `double`, `cube`. Use all of them on number 5.
+2. 
