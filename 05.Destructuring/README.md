@@ -18,4 +18,27 @@ const [daniel, ...rest] = names;
 console.log(rest);
 ```
 
+You can also skip some elements.
+```javascript
+const names = ['Daniel', 'Adina', 'Andrei'];
+const [first, , third]= names;
+console.log(first);// Daniel
+console.log(third);// Andrei
+```
+We can also use destructuring for objects.
+
+```javascript
+const person = {
+  name: 'Rodica',
+  age: 25
+}
+
+const { name } = person;
+console.log(name); //Rodica
+
+const { name: renamedName } = person;
+console.log(renamedName); // Rodica
+
+```
+
 ### Exercises
