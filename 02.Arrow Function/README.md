@@ -63,8 +63,4 @@ const hr = employees.filter( function(employee) {
 });
 
 console.log(hr);
-const newHr = employees.filter((employee) => employee.department === 'HR')
-                       .map((employee) => ({ ...employee, salary: 7000}));
-console.log(newHr);
-
 ```
