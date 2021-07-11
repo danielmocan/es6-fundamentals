@@ -15,7 +15,7 @@ I know that the training is about es6, but I want to mention that in es9(es2018)
 const person = {
   name: 'Vitalie',
   age: 25,
-  department: 'HR';
+  department: 'HR',
 }
 const newPerson = {...person};
 console.log(newPerson);

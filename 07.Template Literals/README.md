@@ -16,7 +16,7 @@ const fullName = `First Name: ${firstName} Last Name:${lastName}`;
 console.log(fullName);
 
 //No more
-const fullName = "First Name: "+ firstName +"Last Name:"+ lastName;
+const fullNameOld = "First Name: "+ firstName +"Last Name:"+ lastName;
 ```
 You can do more stuff inside template literals.
 
@@ -35,14 +35,12 @@ Sometimes the firstName is not available, use some default value for it.
 ```javascript
 
 const emailTemplate = `
+Dear Vasile,
 
-Dear ${firstName},
+Your have subscription for Netflix, is expiring on 15 august 2021.
 
-Your have subscription for ${product}, is expering on ${expiringDate}.
-
-The cost for you subscription is $${productPrice}.
+The cost for you subscription is $21.
 
 Thank you for being our loyal customer.
-
 `;
 ```

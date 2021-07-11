@@ -13,7 +13,7 @@ You can also use rest parameters to collect a part of the elements from the arra
 ```javascript
 const names = ['Daniel', 'Adina', 'Andrei'];
 
-const[daniel,...rest] = names;
+const [daniel, ...rest] = names;
 
 console.log(rest);
 ```
