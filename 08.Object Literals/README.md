@@ -54,7 +54,6 @@ const person = {
 person[objKey] = 'Valentin';
 
 //with es6 you can add them directly
-
 const person = {
   age: 25,
   ['name']: 'Razvan',
