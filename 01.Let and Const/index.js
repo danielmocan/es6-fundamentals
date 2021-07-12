@@ -47,6 +47,7 @@ console.log(person);
 /* Exercises */
 //1. You have to following code, please move the parts of the code I a way that it will print I Got It.
 
+
 let str1 = "I";
 {
   let str2;
@@ -54,9 +55,10 @@ let str1 = "I";
   {
     if (true) {
       console.log(str3);
-      str2 = "Got";
-      let str3 = "It.";
+      str2 = "It.";
+      let str3 = "Got";
     }
   }
   console.log(str1);
 }
+
