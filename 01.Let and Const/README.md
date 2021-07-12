@@ -75,8 +75,8 @@ let str1 = "I";
   {
     if (true) {
       console.log(str3);
-      str2 = "Got";
-      let str3 = "It.";
+      str2 = "It.";
+      let str3 = "Got";
     }
   }
   console.log(str1);
