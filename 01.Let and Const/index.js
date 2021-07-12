@@ -43,3 +43,20 @@ const person = {
 // Works fine, but why?
 person.position = 'AQA';
 console.log(person);
+
+/* Exercises */
+//1. You have to following code, please move the parts of the code I a way that it will print I Got It.
+
+let str1 = "I";
+{
+  let str2;
+  console.log(str2);
+  {
+    if (true) {
+      console.log(str3);
+      str2 = "Got";
+      let str3 = "It.";
+    }
+  }
+  console.log(str1);
+}
