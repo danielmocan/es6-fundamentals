@@ -60,3 +60,15 @@ const person = {
 }
 ```
 
+### Exercises
+
+1. Given the bellow variables create a server object. 
+Create a method using shorthand notation that returns the port number.
+Create a dinamic property `Start Server` that will log to the console `Starting Server: frontend_prod on port: 8080` and use it.
+
+```javascript
+const port = 8080;
+const name = 'frontend_prod';
+const server = {
+}
+```
